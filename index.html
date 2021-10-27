@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Aliziane Hassane</title> <!-- Le Titre du HTML -->
+    <link rel="stylesheet" href="style.css"> <!-- faire l'appel du fichier du style css -->
+    <script src="script.js"></script> <!-- faire l'appel du fichier du java script -->
+    <link rel="icon" href="icons/icon.ico"> <!-- changer l'icon du html -->
+</head>
+<body>
+    <!-- on devise le body á une pages avec beacoups de sections -->
+        <div class="page">
+            <div class="nav">
+                <!-- la section du nav -->
+                <img id="picture" src="my picture.jpg"><!-- ajouter une image -->
+                <div class="nav-text">
+                    <img src="icons/profile.png">
+                    <span>Ali Ziane Hassane</span>
+                </div>
+                <!-- la section du Contact -->
+                <div class="contact">
+                    <h1>contact</h1>
+                    <img class="icons" src="icons/adresse.png" alt="adresse">
+                    <span>alger </span>
+                    <br>
+                    <img class="icons" src="icons/phone.png" alt="phone">
+                    <span>0558116970</span>
+                    <br>
+                    <img class="icons" src="icons/email.png" alt="email">
+                    <a href="mailto:hassanealiz11@gmail.com">hassanealiz11@gmail.com</a>
+                    <br>
+                    <img class="icons" src="icons/facebook.png" alt="facebook">
+                    <a id="facebook" href="https://www.facebook.com/hassane.aliz/" target="_blank">@hassane Aliziane</a>
+
+                </div>
+                
+            </div>
+            <!-- la section de la Droite -->
+            <div class="droit">
+                <!-- la section de la heade -->
+                <div class="heade">
+                    <!--section pour text dans le heade-->
+                    <div class="heade-text">
+                        <h1>Curriculum Vitae</h1>
+                        <p>je suis Aliziane Hassane j'ai 20 ans je suis un étudiant en 2 eme année
+                             informatique a université ahmed bouguerra boumerdes</p>
+                    </div>
+                    <!--section pour les button-->
+                    <div class="button">
+                        <button onclick="expérience()"> Mon expérience</button>
+                        <button onclick="compétences()">Mes compétences</button>
+                        <button onclick="formation()">Ma formation</button>
+                    </div>
+                    
+                </div>
+                <!-- la section de la contenu-->
+            <div class="contenu">
+                <div class="section">
+                    <!--faire cadre pour afficher les page html-->
+                    <iframe id="cadre"></iframe>
+                </div>
+                <!--la section footer-->
+                <div class="footer">
+                    <!--la section footer gauche-->
+                    <div class="footerg">
+                        <h1>les langues</h1>
+                        <ul>
+                            <li> arabe </li>
+                            <li> francais </li>
+                            <li>anglais</li>
+                        </ul>
+                    </div>
+                    <!--la section footer droit-->
+                    <div class="footerd">
+                        <h1>Centres d’intérêt</h1>
+                        <!-- ul et li pour faire des listes -->
+                        <ul>
+                            <li>randonnée</li>
+                            <li>camping</li>
+                            <li>les voyages</li>
+                            <li>jeux video</li>
+                        </ul>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+</body>
+</html>

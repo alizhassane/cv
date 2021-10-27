@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body {
+    background-color: #b5bec7;
+    /* la couleur du fond */
+    font-family: 'Lora-Italic-VariableFont_wght', sans-serif;
+    /* le type du police */
+    /* si mon font marche pas il utilise sans serif*/
+  }
+.page{
+    width: 60%;
+    /* fixé le largeur de la page */
+    margin: 20px auto;
+     /* La marge 20 dans le haut , automatique droite et gauche*/
+    display: flex;
+    /*Gérer l’affichage*/
+    background-image: linear-gradient(to left,#6A736F ,#313B2F );
+    /* pour faire des couleurs gradient */
+    box-shadow: 0 0 1em, 0 0 1em;
+    /* pour faire l'ombre */
+}
+.nav
+/* section nav */
+{
+    width: 30%;
+    /* fixé le largeur de la section nav */
+}
+#picture {
+    width: 150px;
+    height: 150px;
+    /* metriser la taille du photo de profil ...*/
+    border-radius: 50%;
+    /* pour avoir une photo de profil ronde...*/
+    position: absolute;
+    top: 40px;
+    left: 310px;
+    /*pour position la photo*/
+    border: 5px solid white;
+    /*fait une border pour la photo*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
+    /*fait un shadow*/
+    transition: .5s;
+    /*fait une transition lisse*/
+    filter: grayscale(100%);
+    /*fait une filter gray*/
+}
+#picture:hover
+/* si en mettre le curseur en photo de profil*/
+{
+    filter: grayscale(0%);
+    /*supprimer le filtre gray*/
+    transform: scale(1.1);
+    /*agrandit (scale)*/
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 5);
+}
+
+.nav-text{
+    margin-left: 10px;
+    /* La marge 30px dans la gauche*/
+    margin-top: 205px;
+    /* La marge 205px dans le haut*/
+}
+span{
+    color: white;
+    /* la color du span */
+    font-size: 20px;
+    /* la taille du span */
+}
+.nav img{
+    width: 25px;
+    height: 25px;
+    /* metriser la taille du photo de profil ...*/
+    margin-top: 10px;
+    /* La marge 10px dans le haut*/
+    margin-left: 10px;
+}
+.contact h1
+/* les titres de la section contact */
+{
+    color: #B0B6BA;
+    margin-left: 30px;
+    margin-top: 80px;
+    text-shadow: 1px 1px white;
+    
+}
+.droit{
+    width: 70%;
+    /* fixé le largeur de la section droit */
+}
+.heade{
+    height: 210px;
+    text-align: center;
+    /* fixé le longuer de la section heade */
+}
+.heade-text h1{
+    color: #B0B6BA;
+    font-size: 40px;
+    text-shadow: 1px 1px white;
+    /*text decoration*/
+    
+    }
+p{
+    font-size: 19px;
+    color: lightgray;
+    text-align: center;
+    /*text decoration*/
+}
+.button{
+    margin-top: 25px;
+    /* La marge 25px dans le haut*/
+    margin-left: 75px;
+    /* La marge 75px dans la gauche*/
+    
+ }
+.button button{
+        
+        border: 1px solid black;
+        padding: 10px 20px;
+        /*fait la taill de button*/
+        float: left;  
+        transition: .5s;
+    }
+ button:hover
+ /* si en mettre le curseur en les button*/{
+     background-color: #ddd;
+     transform: scale(1.1);
+     /*agrandit (scale)*/
+
+ }
+
+.contenu{/*  est la Valeurs hexadécimal de la couleur du Background.jpg*/
+  background-image: url(background/Background.jpg);
+  /* un fond photo */
+  background-size: 700px
+/*la taille du photo*/}
+.section iframe{
+    height: 320px;
+    width: 555px;
+    /* fixé le taille de le cadre */
+    }
+.footer{
+    display: flex;
+    /*Gérer l’affichage*/
+}
+.footerg{
+    
+    width: 50%;
+    /* fixé le largeur de la section nav */
+}
+.footerg h1,ul{
+    margin-left: 40px;
+    /* La marge 40px dans la gauche*/
+    
+}
+ .footerd{
+    
+    width: 50%;
+    /* fixé le largeur de la section nav */
+    
+}
+h1{
+    color: #CBCFD1;
+    text-decoration: #c0b4a8 underline;
+    text-shadow: 2px 2px black;
+    /*text decoration*/
+}
+
+#competence{
+    background-image: url(background/competence.jpg);
+    background-size: cover;
+    /* un fond photo pour la page competece */
+}
+#experience{
+    background-image: url(background/experience.jpg);
+    background-size: cover;
+    /* un fond photo pour la page experience */
+}
+#formation{
+    background-image: url(background/formation.jpg);
+    background-size: cover;
+    /* un fond photo pour la page formation */
+}
+li{
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+/* avec le @font-face on ajoute le police qu,on va utiliser*/
+@font-face {
+    font-family: "Lora-Italic-VariableFont_wght";
+    src: url("Lora-Italic-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
